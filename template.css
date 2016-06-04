@@ -1,0 +1,182 @@
+* {
+  transition: all 0.3s;
+}
+
+body {
+  background: grey;
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana;
+}
+
+.head-tools {
+  padding: 10px;
+  padding-top: 2px;
+  text-align: right;
+  font-size: 2em;
+  color: #eee;
+  vertical-align: middle;
+  line-height: head;
+  padding-bottom: 10px;
+}
+
+.head-tools a {
+  text-decoration: none;
+}
+
+.footer {
+  margin-left: -40%;
+}
+
+.apart {
+  background-color: dimgrey;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.tags {
+  background-color: dimgrey;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.time {
+  font-size: 11px;
+}
+
+.search {
+  font-size: 0.5em;
+  width: 150px;
+  height: 2em;
+  margin: 0;
+  margin-right: 15px;
+  background: none;
+  color: #eee;
+  border: 2px solid dimgrey;
+  border-radius: 15px;
+  padding: 2px 10px 2px 10px;
+}
+
+.search:focus {
+  border: 2px solid #eee;
+}
+
+.inactive {
+  color: white;
+  font-size: 0.5em;
+}
+
+.inactive:hover {
+  background-color: white;
+  color: dimgrey;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.title {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 2em;
+  color: #eee;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.title2 {
+  position: absolute;
+  top: 20px;
+  left: 350px;
+  font-size: 1em;
+  color: #eee;
+}
+
+hr {
+  display: block;
+  border: 0;
+  border-top: 2px solid dimgrey;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+}
+
+a {
+  color:black;
+}
+
+.afbeeldingen {
+  width: 50%;
+}
+
+.nummers {
+  color: white;
+  text-align:center;
+  margin-left: -40%;
+}
+
+.active {
+  color: blue;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.posts {
+  text-align: center;
+  width: 70%;
+  margin-left:20%;
+}
+
+.post {
+  position:absolute;
+}
+
+.profile-pic {
+  background-image: url("./images/ikzelf.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 10px;
+  top: 0;
+  position: absolute;
+  transform: translateX(-100px);
+}
+
+.post-content {
+  margin: 0;
+  background: #eee;
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right:450px;
+}
+
+.sidebar {
+  float: right;
+  position: relative;
+  margin: 0;
+  margin-left: 50%;
+  background: #eee;
+  width: 250px;
+  text-align: left;
+  display:inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
