@@ -1,0 +1,183 @@
+.inhoud{
+  display:flex;
+  flex-direction:column;
+}
+
+header {
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:bold;
+  background-color: #F7CA18;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 25px 20px;
+  font-size:30px;
+  color: darkblue;
+}
+
+.googlemaps {
+  background:url("http://www.operasb.com.au/images/maps/jndsd75zo2.png")  center right;
+  background-size:cover;
+  height:300px;;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 5%;
+}
+
+.content{
+  flex:1;
+}
+
+.knoppen {
+  display:flex;
+  flex-direction:row;
+  height: 120px;
+}
+
+.bovensteborder {
+   border-top: 7px solid #F7CA18;
+}
+
+.linkseborder {
+    border-left: 7px solid white;
+}
+
+.knop {
+  background-image: url("https://s8.postimg.org/6kjtfocb9/delijn.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-grow:1;
+  text-align:center;
+  border-right:1px solid #666;
+  color: #F7CA18;
+  padding-top: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  /* Voor zwarte overlay */
+  background-color: rgba(0,0,0,0.6); 
+  background-blend-mode: multiply;
+  /* Zodat het vakje mooi in het midden uitkomt*/
+  width:50%;
+  border-bottom: 7px solid white;
+}
+
+.knop:hover {
+    background-color: rgba(0,0,0,0.3); 
+    cursor:pointer;
+}
+
+.knoppen a {
+  color:#F7CA18;
+}
+
+.knoppen a:hover {
+  color: #F7CA18;
+  text-decoration:none;
+}
+
+@media (max-width: 960px){
+  .content{
+    overflow-y:scroll;
+  }
+  .inhoud{
+    height:100vh;
+  }
+  .googlemaps{
+    height:300px;
+  }
+}
+
+/*
+@media (min-width: 370px){
+  .content{
+    overflow-y:scroll;
+  }
+
+  .inhoud{
+    height:100vh;
+  }
+  .googlemaps{
+    height: 300px;
+  }
+  
+  .knoppen {
+      height: 300px;
+  }
+  
+  header {
+      padding: 25px 20px;
+      font-size:40px;
+  }
+ 
+}
+*/
+
+/* dit is allemaal voor hamburgermenu */
+div#top-nav {
+  height: 60px;
+}
+
+div#top-nav .menu-btn {
+  color: darkblue;
+  font-size: 27pt;
+  margin-top:3px;
+}
+
+div#top-nav .menu-btn:hover {
+  color: blue;
+  cursor:pointer;
+}
+
+.sidebar {
+  position: absolute;
+  background: darkblue;
+  color: #F7CA18;
+  width: 310px;
+  height: 100%;
+  transform: translate3d(-330px, -0, 0);
+  transition: transform 0.4s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  margin-top: 310px;
+  margin-left:-20px;
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 15pt;
+  font-size: 20px;
+  background-color: darkblue;
+}
+
+.sidebar ul li a {
+  color: #F7CA18;
+}
+
+.sidebar ul li a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-open .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  transition: background 0.4s, transform 0s 0.4s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.menu-open .sidebar {
+  position: absolute;
+  z-index: 11;
+  height: 100%;
+  display: block;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.8s;
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
