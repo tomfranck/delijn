@@ -1,8 +1,10 @@
+header, body {
+  font-family: "Open Sans";
+}
 .inhoud{
   display:flex;
   flex-direction:column;
 }
-
 header {
   text-align:center;
   text-transform:uppercase;
@@ -15,7 +17,6 @@ header {
   font-size:30px;
   color: darkblue;
 }
-
 .googlemaps {
   background:url("http://www.operasb.com.au/images/maps/jndsd75zo2.png")  center right;
   background-size:cover;
@@ -60,7 +61,7 @@ header {
   font-weight:bold;
   text-transform: uppercase;
   /* Voor zwarte overlay */
-  background-color: rgba(0,0,0,0.6); 
+  background-color: rgba(0,0,0,0.6);
   background-blend-mode: multiply;
   /* Zodat het vakje mooi in het midden uitkomt*/
   width:50%;
@@ -68,7 +69,7 @@ header {
 }
 
 .knop:hover {
-    background-color: rgba(0,0,0,0.3); 
+    background-color: rgba(0,0,0,0.3);
     cursor:pointer;
 }
 
@@ -105,16 +106,16 @@ header {
   .googlemaps{
     height: 300px;
   }
-  
+
   .knoppen {
       height: 300px;
   }
-  
+
   header {
       padding: 25px 20px;
       font-size:40px;
   }
- 
+
 }
 */
 
