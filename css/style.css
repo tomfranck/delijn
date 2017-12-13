@@ -1,9 +1,21 @@
 header, body {
   font-family: "Open Sans";
+  font-size: 150%;
 }
-.inhoud{
-  display:flex;
-  flex-direction:column;
+h1 {
+  font-weight: bold;
+  margin-left: 3%;
+  font-size: 200%;
+}
+#titel {
+  font-size: 100%;
+}
+h2 {
+  font-size: 150%;
+  margin: -1% 0 0 3%;
+}
+label {
+
 }
 header {
   text-align:center;
@@ -13,6 +25,7 @@ header {
   display:flex;
   justify-content:space-between;
   align-items:center;
+  margin-bottom: 3%;
   padding: 25px 20px;
   font-size:30px;
   color: darkblue;
