@@ -5,7 +5,7 @@ header, body {
 h1 {
   font-weight: bold;
   margin-left: 3%;
-  font-size: 200%;
+  font-size: 100%;
 }
 #titel {
   font-size: 100%;
@@ -15,7 +15,16 @@ h2 {
   margin: -1% 0 0 3%;
 }
 label {
-
+margin-left: 10px;
+}
+#knop {
+  margin-left: 10px;
+}
+li {
+  list-style-type: none;
+}
+.lijnen {
+  color: darkblue;
 }
 header {
   text-align:center;

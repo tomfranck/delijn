@@ -64,7 +64,7 @@ var getDoorkomendeLijnenForHalte = function(){
 var getHaltesInDeBuurt = function(xCoordinaat, yCoordinaat){
 
   var straal = 300;
-  $("#straal").append(" " + straal + "m:");
+  //$("#straal").append(" " + straal + "m:");
   var inDeBuurt = "https://www.delijn.be/rise-api-core/haltes/indebuurt/"+ xCoordinaat + "/" + yCoordinaat + "/" + straal;
 
   $.ajax({
@@ -77,11 +77,11 @@ var getHaltesInDeBuurt = function(xCoordinaat, yCoordinaat){
         var lijnen = halte["lijnen"];
         var haltenummer = halte["halteNummer"];
         var omschrijvingLang = halte["omschrijvingLang"];
-        $("#haltesInDeBuurt").append('<li>Halte: '+haltenummer+': '+omschrijvingLang+' <button data-omschrijving="' + omschrijvingLang +'" data-halte="' + haltenummer +'" class="liveDoorkomstenBtn">Bekijk live doorkomsten</button><ol id="'+haltenummer+'"></ol></li>');
+        $("#haltesInDeBuurt").append('<li class="lijnen">Halte: '+haltenummer+': '+omschrijvingLang+' <button data-omschrijving="' + omschrijvingLang +'" data-halte="' + haltenummer +'" class="liveDoorkomstenBtn">Bekijk live doorkomsten</button><ol id="'+haltenummer+'"></ol></li>');
         for (var j=0;j<lijnen.length;j++){
           var bestemming = lijnen[j]["bestemming"];
           var lijnNummer = lijnen[j]["lijnNummer"];
-          $("#"+haltenummer).append('<li>Lijnnummer: '+lijnNummer+': ' + bestemming + '</li>');
+          $("#"+haltenummer).append('<li>Lijn '+lijnNummer+': ' + bestemming + '</li>');
         }
 
       }
