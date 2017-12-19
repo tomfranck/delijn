@@ -81,7 +81,7 @@ var getHaltesInDeBuurt = function(xCoordinaat, yCoordinaat){
         for (var j=0;j<lijnen.length;j++){
           var bestemming = lijnen[j]["bestemming"];
           var lijnNummer = lijnen[j]["lijnNummer"];
-          $("#"+haltenummer).append('<li class="lijnen">Lijn '+lijnNummer+': ' + bestemming + '</li>');
+          //$("#"+haltenummer).append('<li class="lijnen">Lijn '+lijnNummer+': ' + bestemming + '</li>');
         }
 
       }
