@@ -114,6 +114,8 @@ var getLiveDoorkomsten = function(){
       var lijnRichting = lijnen[i]["lijnRichting"];
       var lijnType = lijnen[i]["lijnType"];
       var vertrektijd = lijnen[i]["vertrekTijd"];
+      var element = document.getElementById("live-lijst");
+      element.scrollIntoView();
 
       $("#live-lijst").append('<li>'+lijnNummer+ ' '+ lijnType +' richting: ' + lijnRichting + '<br><p class="vertrektijd"> Vertrektijd: ' + vertrektijd+'</p></li>');
     }
