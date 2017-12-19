@@ -13,9 +13,13 @@ h1 {
 #titel {
   font-size: 100%;
 }
-.titelHaltes {
+.titelHaltes, #h1-live {
   font-size: 150%;
   color: darkblue;
+}
+.vertrektijd {
+  color: darkblue;
+  font-weight: bold;
 }
 h2 {
   font-size: 150%;
@@ -215,6 +219,15 @@ header {
 .knoppen a:hover {
   color: #F7CA18;
   text-decoration:none;
+}
+
+.liveDoorkomstenBtn {
+background-color: #F7CA18;
+color: darkblue;
+font-weight: bold;
+padding: 10px;
+margin: 5px 0 5px 0;
+border: 0px;
 }
 
 @media (max-width: 960px){

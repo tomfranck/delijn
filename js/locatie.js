@@ -114,7 +114,8 @@ var getLiveDoorkomsten = function(){
       var lijnRichting = lijnen[i]["lijnRichting"];
       var lijnType = lijnen[i]["lijnType"];
       var vertrektijd = lijnen[i]["vertrekTijd"];
-      $("#live-lijst").append('<li>'+lijnNummer+ ' '+ lijnType +' richting: ' + lijnRichting + ' vertrekTijd: ' + vertrektijd+'</li>');
+
+      $("#live-lijst").append('<li>'+lijnNummer+ ' '+ lijnType +' richting: ' + lijnRichting + '<br><p class="vertrektijd"> Vertrektijd: ' + vertrektijd+'</p></li>');
     }
 
   }).fail(function(){
