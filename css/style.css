@@ -77,8 +77,8 @@ header {
     border-left: 7px solid white;
 }
 
-.knop {
-  background-image: url("https://s8.postimg.org/6kjtfocb9/delijn.jpg");
+.foto1 {
+  background-image: url("http://www.willemen.be/sites/default/files/styles/projects-page-slide/public/Sint-Tr.-stelplaats-21apr15-058.JPG?itok=-xNsHn8Y");
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -96,6 +96,108 @@ header {
   width:50%;
   border-bottom: 7px solid white;
 }
+
+.foto2 {
+  background-image: url("https://cdn.uc.assets.prezly.com/768a912d-126e-4d3d-b3af-5d82db4eee1d/-/preview/2048x2048/-/quality/best/");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-grow:1;
+  text-align:center;
+  border-right:1px solid #666;
+  color: #F7CA18;
+  padding-top: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  /* Voor zwarte overlay */
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: multiply;
+  /* Zodat het vakje mooi in het midden uitkomt*/
+  width:50%;
+  border-bottom: 7px solid white;
+}
+
+.foto3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiYi_7fdituFYz2wbj3H1hx2AocMCNsYkG9_dfgq3n_lti2i_q");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-grow:1;
+  text-align:center;
+  border-right:1px solid #666;
+  color: #F7CA18;
+  padding-top: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  /* Voor zwarte overlay */
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: multiply;
+  /* Zodat het vakje mooi in het midden uitkomt*/
+  width:50%;
+  border-bottom: 7px solid white;
+}
+
+.foto4 {
+  background-image: url("http://www.gezinsbondmenen.be/sites/default/files/fotos/pagina/foto-468-2596.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-grow:1;
+  text-align:center;
+  border-right:1px solid #666;
+  color: #F7CA18;
+  padding-top: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  /* Voor zwarte overlay */
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: multiply;
+  /* Zodat het vakje mooi in het midden uitkomt*/
+  width:50%;
+  border-bottom: 7px solid white;
+}
+
+.foto5 {
+  background-image: url("http://datanews.knack.be/medias/6370/3261635.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-grow:1;
+  text-align:center;
+  border-right:1px solid #666;
+  color: #F7CA18;
+  padding-top: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  /* Voor zwarte overlay */
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: multiply;
+  /* Zodat het vakje mooi in het midden uitkomt*/
+  width:50%;
+  border-bottom: 7px solid white;
+}
+
+.foto6 {
+  background-image: url("http://www.flanderstoday.eu/sites/default/files/styles/corfla_article_web_image_overview/public/webimages/de_lijn_7.jpg?itok=hwcXFcsA");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-grow:1;
+  text-align:center;
+  border-right:1px solid #666;
+  color: #F7CA18;
+  padding-top: 30px;
+  font-weight:bold;
+  text-transform: uppercase;
+  /* Voor zwarte overlay */
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: multiply;
+  /* Zodat het vakje mooi in het midden uitkomt*/
+  width:50%;
+  border-bottom: 7px solid white;
+}
+
+
 
 .knop:nth-child(4n) {
   margin-right: 0;
