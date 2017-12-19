@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+
+
 header, body {
-  font-family: "Open Sans";
+  font-family: 'PT Sans Caption', sans-serif;
   font-size: 150%;
 }
 h1 {
@@ -92,6 +95,10 @@ header {
   /* Zodat het vakje mooi in het midden uitkomt*/
   width:50%;
   border-bottom: 7px solid white;
+}
+
+.knop:nth-child(4n) {
+  margin-right: 0;
 }
 
 .knop:hover {
